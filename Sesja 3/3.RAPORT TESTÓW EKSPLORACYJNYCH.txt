@@ -1,0 +1,50 @@
+----------------------------------------------------------------------------------------------------
+RAPORT TESTÓW EKSPLORACYJNYCH
+----------------------------------------------------------------------------------------------------
+AUTOR TESTÓW:
+MA£GORZATA PI£ATOWICZ
+----------------------------------------------------------------------------------------------------
+SESJA 3
+----------------------------------------------------------------------------------------------------
+DATA ROZPOCZÊCIA I KOÑCA TESTÓW
+DATA 03.12.2022
+START 12:30
+KONIEC 14:00
+----------------------------------------------------------------------------------------------------
+CZAS TRWANIA SESJI:
+90 minut
+----------------------------------------------------------------------------------------------------
+CEL:
+WERYFIKACJA POPRAWNOŒCI DZIA£ANIA PRZYCISKU CLEAR ALL ORAZ PRZYCISKU STOP W APLIKACJI Pomodoro Kanban
+----------------------------------------------------------------------------------------------------
+APLIKACJA. LINK:
+Pomodoro Kanban
+https://testujpl.gitlab.io/pomodoro-kanban-test/
+----------------------------------------------------------------------------------------------------
+ŒRODOWISKO TESTOWE:
+Wersja 107.0.5304.123 (Oficjalna wersja) (64-bitowa), Windows 7
+----------------------------------------------------------------------------------------------------
+OBSZAR:
+1. WERYFIKACJA DZIA£ANIA PRZYCISKU CLEAR ALL.
+2. WERYFIKACJA DZIA£ANIA PRZYCISKU STOP. 
+----------------------------------------------------------------------------------------------------
+UWAGI/CZEGO NIE UDA£O SIÊ ZREALIZOWAÆ PODCZAS SESJI:
+1. WERYFIKACJA DZIA£ANIA PRZYCISKU STOP. 
+----------------------------------------------------------------------------------------------------
+DEFEKTY:
+1. Przycisk CLER ALL czyœci zadania nie tylko w kolumnie DONE, ale równie¿ we wszystkich innych kolumnach.
+
+KROKI DO REPRODUKCJI:
+1.	WejdŸ na: https://testujpl.gitlab.io/pomodoro-kanban-test/ .
+2.	W kolumnie TODO stwórz przynajmniej trzy zadania za pomoc¹ przycisku "+".
+3.	Za pomoc¹ metody "drag&drop" przerzuæ jedno z zadañ do kolumny IN PROGRESS, a drugie zadanie do kolumny DONE.
+4.	Kliknij w przycisk CLEAR ALL.
+5.	Zauwa¿, ¿e zosta³a usuniêta zawartoœæ ka¿dej kolumny.
+
+OCZEKIWANY REZULTAT: Przycisk CLEAR ALL czyœci zadania wy³¹cznie w kolumnie DONE.
+AKTUALNY REZULTAT: Przycisk CLEAR ALL CZYŒCI ZADANIA WE WSZYSTKICH KOLUMNACH.
+
+EWIDENCJA: Gif - Raport3M.Pilatowicz
+----------------------------------------------------------------------------------------------------
+ODKRYCIA - POTENCJALNE PROBLEMY:
+- 

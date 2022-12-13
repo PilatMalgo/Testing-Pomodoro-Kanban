@@ -1,0 +1,54 @@
+----------------------------------------------------------------------------------------------------
+RAPORT TESTÓW EKSPLORACYJNYCH
+----------------------------------------------------------------------------------------------------
+AUTOR TESTÓW:
+MA£GORZATA PI£ATOWICZ
+----------------------------------------------------------------------------------------------------
+SESJA 6
+----------------------------------------------------------------------------------------------------
+DATA ROZPOCZÊCIA I KOÑCA TESTÓW
+DATA 05.12.2022
+START 17:00
+KONIEC 18:30
+----------------------------------------------------------------------------------------------------
+CZAS TRWANIA SESJI:
+90 minut
+----------------------------------------------------------------------------------------------------
+CEL:
+WERYFIKACJA POPRAWNOŒCI LICZENIA POMIDORÓW W APLIKACJI Pomodoro Kanban
+----------------------------------------------------------------------------------------------------
+APLIKACJA. LINK:
+Pomodoro Kanban
+https://testujpl.gitlab.io/pomodoro-kanban-test/
+----------------------------------------------------------------------------------------------------
+ŒRODOWISKO TESTOWE:
+Wersja 107.0.5304.123 (Oficjalna wersja) (64-bitowa), Windows 7
+----------------------------------------------------------------------------------------------------
+OBSZAR:
+WERYFIKACJA POPRAWNOŒCI LICZENIA POMIDORÓW.
+----------------------------------------------------------------------------------------------------
+CZEGO NIE UDA£O SIÊ ZREALIZOWAÆ PODCZAS SESJI:
+1. PODCZAS SESJI ZREALIZOWANO WYZNACZONY CEL.
+----------------------------------------------------------------------------------------------------
+DEFEKTY:
+W przypadku rozpoczêcia zadania przyciskiem Start i zatrzymania przyciskiem Stop 
+a nastêpnie wybraniu opcji NOPE, aplikacja b³êdnie nalicza przerwane zadania, dodaj¹c 
+jednoczeœnie w tej pozycji jednego pomidora. (pomodoros interrupted today).
+
+KROKI DO REPRODUKCJI:
+1. WejdŸ na: https://testujpl.gitlab.io/pomodoro-kanban-test/
+2. Kliknij przycisk START, który automatycznie zamienia siê na przycisk CANCEL.	
+3. Odczekaj minimum 10 sekund a¿ przycisk CANCEL zamieni siê na STOP.	
+4. Kliknij przycisk STOP.
+5. Na ekranie wyœwietli siê komunikat, na którym nale¿y klikn¹æ przycisk NOPE.Kliknij go.
+6. SprawdŸ ikonê pomidora w prawym górnym rogu i zauwa¿, ¿e pomimo anulowania resetu czasu, 
+   aplikacja potraktowa³a zadanie jako przerwane i doda³a jednego pomidora do POMODOROS INTERRUPTED TODAY.
+
+OCZEWIKANY REZULTAT: Aplikacja nie zmienia wartoœci przerwanych zadañ, a wiêc liczba pomidorów pozostaje niezmieniona.
+AKTUALNY REZULTAT: Aplikacja zmienia wartoœæ przerwanych zadañ, doliczaj¹c jednego pomidora.
+
+EWIDENCJA: Gif - Raport6M.Pilatowicz
+----------------------------------------------------------------------------------------------------
+ODKRYCIA - POTENCJALNE PROBLEMY: Wyzerowanie iloœci pomidorów mo¿liwe jest wy³¹cznie podczas uruchomienia 
+	   		         aplikacji w nowej przegl¹darce. 
+-----------------------------------------------------------------------------------------------------

@@ -1,0 +1,52 @@
+----------------------------------------------------------------------------------------------------
+RAPORT TESTÓW EKSPLORACYJNYCH
+----------------------------------------------------------------------------------------------------
+AUTOR TESTÓW:
+MA£GORZATA PI£ATOWICZ
+----------------------------------------------------------------------------------------------------
+WERSJA DOKUMENTU:
+SESJA 5
+----------------------------------------------------------------------------------------------------
+DATA ROZPOCZÊCIA I KOÑCA TESTÓW
+DATA 04.12.2022
+START 15:00
+KONIEC 16:30
+----------------------------------------------------------------------------------------------------
+CZAS TRWANIA SESJI:
+90 minut
+----------------------------------------------------------------------------------------------------
+CEL:
+WERYFIKACJA POPRAWNOŒCI DZIA£ANIA POWIADOMIEÑ ORAZ POPRAWNOŒCI NALICZANIA POMIDORÓW PO ZRESTARTOWANIU CZASU W APLIKACJI Pomodoro Kanban
+----------------------------------------------------------------------------------------------------
+APLIKACJA.LINK:
+Pomodoro Kanban
+https://testujpl.gitlab.io/pomodoro-kanban-test/
+----------------------------------------------------------------------------------------------------
+ŒRODOWISKO TESTOWE:
+Wersja 107.0.5304.123 (Oficjalna wersja) (64-bitowa), Windows 7
+----------------------------------------------------------------------------------------------------
+OBSZAR:
+1. WERYFIKACJA DZIA£ANIA POWIADOMIEÑ.
+----------------------------------------------------------------------------------------------------
+UWAGI/CZEGO NIE UDA£O SIÊ ZREALIZOWAÆ PODCZAS SESJI:
+1. POPRAWNOŒCI NALICZANIA POMIDORÓW PO ZRESTARTOWANIU CZASU.
+----------------------------------------------------------------------------------------------------
+DEFEKTY:
+1. Po klikniêciu w ustawienia (ko³o zêbate) a nastpnie w kolumnie Notifications zaznaczenia opcji "Enable Web Notification" nie wyœwietla siê komunikat po up³ywie okreœlonego czasu na zadanie.
+
+KROKI DO REPRODUKCJI:
+1. WejdŸ na: https://testujpl.gitlab.io/pomodoro-kanban-test/ .
+2. W ustawieniach > Notifications > Enable Web Notification - zakliknij opcje, aby by³a na ¿ó³to
+3. Kliknij przycisk Save
+4. Uruchom przycisk Start
+5. Zwróæ uwagê, ¿e po zakoñczeniu zadania nie pojawia siê powiadomienie.
+
+OCZEKIWANY REZULTAT: Po zakoñczeniu czasu pojawia siê komunikat.
+AKTUALNY REZULTAT: Brak Komunikatu po zakoñczeniu czasu.
+
+EWIDENCJA: Gif - Raport5M.Pilatowicz
+----------------------------------------------------------------------------------------------------
+ODKRYCIA - POTENCJALNE PROBLEMY:. 
+
+----------------------------------------------------------------------------------------------------
+

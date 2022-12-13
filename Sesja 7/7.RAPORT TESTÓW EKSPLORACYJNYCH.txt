@@ -1,0 +1,65 @@
+----------------------------------------------------------------------------------------------------
+RAPORT TESTÓW EKSPLORACYJNYCH
+----------------------------------------------------------------------------------------------------
+AUTOR TESTÓW:
+MA£GORZATA PI£ATOWICZ
+----------------------------------------------------------------------------------------------------
+SESJA 7
+----------------------------------------------------------------------------------------------------
+DATA ROZPOCZÊCIA I KOÑCA TESTÓW
+DATA 05.12.2022
+START 19:00
+KONIEC 20:30
+----------------------------------------------------------------------------------------------------
+CZAS TRWANIA SESJI:
+90 minut
+----------------------------------------------------------------------------------------------------
+CEL:
+WERYFIKACJA RESPONSYWNOŒCI ORAZ DZIA£ANIA PRZYCISKU START W WERSJI MOBILNEJ APLIKACJI Pomodoro Kanban
+----------------------------------------------------------------------------------------------------
+APLIKACJA. LINK:
+Pomodoro Kanban
+https://testujpl.gitlab.io/pomodoro-kanban-test/
+----------------------------------------------------------------------------------------------------
+ŒRODOWISKO TESTOWE:
+iPhone 12mini, IOS 16.1.2
+Huawei P30 Lite, Android 10
+---------------------------------------------------------------------------------
+OBSZAR:
+1. WERYFIKACJA RESPONSYWNOŒCI APLIKACJI. 
+2. WERYFIKACA DZIA£ANIA PRZYCISKU START W WERSJI MOBILNEJ. 
+----------------------------------------------------------------------------------------------------
+CZEGO NIE UDA£O SIÊ ZREALIZOWAÆ PODCZAS SESJI:
+1. PODCZAS SESJI ZREALIZOWANO WYZNACZONY CEL.
+----------------------------------------------------------------------------------------------------
+DEFEKTY:
+1. Strona nie jest responsywna. Aplikacja nie jest dostosowana do wielkoœci ekranu smartfona. 
+   Wyœwietlane treœci siê nie skaluj¹, przez co nie s¹ wygodne w odbiorze. Strona jest nieczytelna 
+   i niewygodna w odbiorze.
+
+KROKI DO REPRODUKCJI:
+1. Na urz¹dzeniu mobilnym wejdŸ na stronê: https://testujpl.gitlab.io/pomodoro-kanban-test/
+2. Zauwa¿, ¿e strona nie jest dopasowana do rozdzielczoœci wyœwietlacza telefonu.
+
+OCZEWIKANY REZULTAT: Strona aplikacji jest responsywna i wygl¹da tak samo czytelnie na ekranie komputera
+		     jak równie¿ na mniejszym wyœwietaczu.
+AKTUALNY REZULTAT: Strona aplikacji nie jest responsywna.
+
+EWIDENCJA: JPEG - HuaweiP30Lite
+	   JPEG - iPhone 12mini 
+
+2. Nieaktywny przycisk START w wersji mobilnej.
+
+KROKI DO REPRODUKCJI:
+1. Na urz¹dzeniu mobilnym, wejdŸ na stronê https://testujpl.gitlab.io/pomodoro-kanban-test/.
+2. Dotknij przycisk START.
+3. Dotniêcie przycisku START nie powoduje ¿adnej akcji.
+
+OCZEWIKANY REZULTAT: Aktywny przycisk START w mobilnej wersji aplikacji.
+AKTUALNY REZULTAT: Nieaktywny przycisk START w mobilnej wersji aplikacji.
+
+EWIDENCJA: mp4 - START mobile
+
+----------------------------------------------------------------------------------------------------
+ODKRYCIA - POTENCJALNE PROBLEMY: Niedoprecyzowane wartoœci Media Queries w kodzie HTML.
+-----------------------------------------------------------------------------------------------------

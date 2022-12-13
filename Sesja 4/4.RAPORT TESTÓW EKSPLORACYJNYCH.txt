@@ -1,0 +1,55 @@
+﻿----------------------------------------------------------------------------------------------------
+RAPORT TESTÓW EKSPLORACYJNYCH
+----------------------------------------------------------------------------------------------------
+AUTOR TESTÓW:
+MAŁGORZATA PIŁATOWICZ
+----------------------------------------------------------------------------------------------------
+WERSJA DOKUMENTU:
+SESJA 4
+----------------------------------------------------------------------------------------------------
+DATA ROZPOCZĘCIA I KOŃCA TESTÓW
+DATA 04.12.2022
+START 09:30
+KONIEC 11:00
+----------------------------------------------------------------------------------------------------
+CZAS TRWANIA SESJI:
+90 minut
+----------------------------------------------------------------------------------------------------
+CEL:
+WERYFIKACJA POPRAWNOŚCI DZIAŁANIA APLIKACJI Pomodoro Kanban
+----------------------------------------------------------------------------------------------------
+APLIKACJA.LINK:
+Pomodoro Kanban
+https://testujpl.gitlab.io/pomodoro-kanban-test/
+----------------------------------------------------------------------------------------------------
+ŚRODOWISKO TESTOWE:
+Wersja 107.0.5304.123 (Oficjalna wersja) (64-bitowa), Windows 7
+----------------------------------------------------------------------------------------------------
+OBSZAR:
+1. WERYFIKACJA DZIAŁANIA PRZYCISKU STOP. 
+----------------------------------------------------------------------------------------------------
+UWAGI/CZEGO NIE UDAŁO SIĘ ZREALIZOWAĆ PODCZAS SESJI:
+-
+----------------------------------------------------------------------------------------------------
+DEFEKTY:
+1. PO KLIKNIĘCIU PRZYCISKU STOP PO UPŁYWIE 10 SEKUND OD WYSTARTOWANIA ZEGARA, POJAWIA SIĘ KOMUNIKAT O TYM, 
+CZY UŻYTKOWNIK NA PEWNO CHCE ZAKOŃCZYĆ ZADANIE. MIMO WYBORU ODPOWIEDZI "NOPE", NASTĘPUJE RESET ZEGARA.
+
+KROKI DO REPRODUKCJI:
+1.	Wejdź na: https://testujpl.gitlab.io/pomodoro-kanban-test/ .
+2.	Kliknij przycisk START.
+3.	W kolumnie TODO stwórz przynajmniej jedno zadanie za pomocą przycisku  "+".
+4.	Po upływie przynajmniej 10 sekund od wystartowania zegara, kliknij w przycisk STOP.
+5.	Zauważ, że zegar zostaje zresetowany.
+
+OCZEKIWANY REZULTAT: Wybór przycisku NOPE nie powoduje zresetowanie zegara.
+AKTUALNY REZULTAT: Wybór przycisku NOPE powoduje wyzerowanie zegara.
+
+EWIDENCJA: Gif - Raport4M.Pilatowicz
+----------------------------------------------------------------------------------------------------
+ODKRYCIA - POTENCJALNE PROBLEMY:
+Specyfikacja opisuje komunikaty w języku polskim, natomiast w aplikacji przedstawione są w języku angielskim. 
+
+EWIDENCJA: jpeg - Raport4.1M.Pilatowicz
+----------------------------------------------------------------------------------------------------
+

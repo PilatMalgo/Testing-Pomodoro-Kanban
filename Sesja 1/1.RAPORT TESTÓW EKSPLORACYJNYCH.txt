@@ -1,0 +1,50 @@
+----------------------------------------------------------------------------------------------------
+RAPORT TESTÓW EKSPLORACYJNYCH
+----------------------------------------------------------------------------------------------------
+AUTOR TESTÓW:
+MA£GORZATA PI£ATOWICZ
+----------------------------------------------------------------------------------------------------
+SESJA 1
+----------------------------------------------------------------------------------------------------
+DATA ROZPOCZÊCIA I KOÑCA TESTÓW
+DATA 02.12.2022
+START 17:00
+KONIEC 18:30
+----------------------------------------------------------------------------------------------------
+CZAS TRWANIA SESJI:
+90 minut
+----------------------------------------------------------------------------------------------------
+CEL:
+WERYFIKACJA POPRAWNOŒCI TRWANIA ZADANIA ORAZ PRZERW W APLIKACJI Pomodoro Kanban
+----------------------------------------------------------------------------------------------------
+APLIKACJA. LINK:
+Pomodoro Kanban
+https://testujpl.gitlab.io/pomodoro-kanban-test/
+----------------------------------------------------------------------------------------------------
+ŒRODOWISKO TESTOWE:
+Wersja 107.0.5304.123 (Oficjalna wersja) (64-bitowa), Windows 7
+----------------------------------------------------------------------------------------------------
+OBSZAR:
+CZAS TRWANIA ZADAÑ I PRZERW.
+----------------------------------------------------------------------------------------------------
+CZEGO NIE UDA£O SIÊ ZREALIZOWAÆ PODCZAS SESJI:
+1.	WERYFIKACJI USTAWIEÑ DLA D£UGIEJ PRZERWY.
+----------------------------------------------------------------------------------------------------
+DEFEKTY:
+Maksymalny czas, który mo¿na ustawiæ dla trwania zadania wynosi wiêcej ni¿ wskazano w specyfikacji. 
+Przesuwaj¹c suwak w prawo uzyskujemy kolejno wartoœci: 59:15, 59:30, 59:45, po których nastêpnie timer wyœwietla wartoœæ: 0:00 oraz 0:15. 
+
+KROKI DO REPRODUKCJI:
+1.	WejdŸ na: https://testujpl.gitlab.io/pomodoro-kanban-test/
+2.	W lewym górnym rogu kliknij symbol ustawieñ, tj. ko³o zêbate.
+3.	Suwak Pomodoro Time przesuñ w prawo.
+4.	Po przekroczeniu minuty 59:00 istnieje mo¿liwoœæ ustawienia innych wartoœci, tj.: 59:15, 59:30, 59:45, 
+        po czym po kolejnych przesuniêciach suwaka, timer kolejno wyœwietla wartoœæ 0:00 oraz 0:15. 
+
+OCZEWIKANY REZULTAT: Maksymalny czas trwania zadania wynosi 59 minut.
+AKTUALNY REZULTAT: Maksymalny czas trwania zadania przekracza 59 minut.
+
+EWIDENCJA: Gif - Raport1M.Pilatowicz
+----------------------------------------------------------------------------------------------------
+ODKRYCIA - POTENCJALNE PROBLEMY: - 
+-----------------------------------------------------------------------------------------------------

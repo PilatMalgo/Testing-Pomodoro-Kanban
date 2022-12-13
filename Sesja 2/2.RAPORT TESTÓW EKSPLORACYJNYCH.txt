@@ -1,0 +1,73 @@
+----------------------------------------------------------------------------------------------------
+RAPORT TESTÓW EKSPLORACYJNYCH
+----------------------------------------------------------------------------------------------------
+AUTOR TESTÓW:
+MA£GORZATA PI£ATOWICZ
+----------------------------------------------------------------------------------------------------
+SESJA 2
+----------------------------------------------------------------------------------------------------
+DATA ROZPOCZÊCIA I KOÑCA TESTÓW
+DATA 02.12.2022
+START 19:00
+KONIEC 20:30
+----------------------------------------------------------------------------------------------------
+CZAS TRWANIA SESJI:
+90 minut
+----------------------------------------------------------------------------------------------------
+CEL:
+WERYFIKACJA POPRAWNOŒCI TRWANIA PRZERW ORAZ MO¯LIWOŒCI EDYCJI ZADAÑ W RAMACH TODO APLIKACJI Pomodoro Kanban
+----------------------------------------------------------------------------------------------------
+APLIKACJA. LINK:
+Pomodoro Kanban
+https://testujpl.gitlab.io/pomodoro-kanban-test/
+----------------------------------------------------------------------------------------------------
+ŒRODOWISKO TESTOWE:
+Wersja 107.0.5304.123 (Oficjalna wersja) (64-bitowa), Windows 7
+----------------------------------------------------------------------------------------------------
+OBSZAR:
+1. CZAS TRWANIA PRZERW.
+2. WERYFIKACJA MO¯LIWOŒCI EDYCJI ZADAÑ W RAMACH TODO.
+----------------------------------------------------------------------------------------------------
+UWAGI/CZEGO NIE UDA£O SIÊ ZREALIZOWAÆ PODCZAS SESJI:
+Wszystkie za³o¿one cele zosta³y przetestowane.
+----------------------------------------------------------------------------------------------------
+DEFEKTY:
+1. MAKSYMALNY CZAS PRZEZNACZONY NA D£UG¥ PRZERWÊ WYNOSI MNIEJ NI¯ WSKAZANO W SPECYFIKACJI APLIKACJI, T.J. 59 ZAMIAST 60 MINUT.
+
+KROKI DO REPRODUKCJI:
+1.	WejdŸ na: https://testujpl.gitlab.io/pomodoro-kanban-test/
+2.	W lewym górnym rogu kliknij symbol ustawieñ, tj. ko³o zêbate.
+3.	Suwak Long Break Time przesuñ w prawo do samego koñca.
+4.	Zaobserwuj, ¿e maksymalny czas przeznaczony na d³ug¹ przerwê wynosi 59:00 minut.
+
+OCZEWIKANY REZULTAT: Maksymalny czas przeznaczony na d³ug¹ przerwê wynosi 60 minut.
+AKTUALNY REZULTAT: Maksymalny czas przeznaczony na d³ug¹ przerwê wynosi 59 minut.
+
+EWIDENCJA: Gif - Raport2M.Pilatowicz
+
+
+
+
+2. BRAK MO¯LIWOŒCI EDYCJI ZADAÑ W RAMACH TODO.
+
+KROKI DO REPRODUKCJI:
+1.	WejdŸ na: https://testujpl.gitlab.io/pomodoro-kanban-test/
+2.	W kolumnie TODO kliknij w przycisk "+".
+3.	Do nowo powsta³ego zadania dodaj opis.
+4.	Kliknij dwukrotnie na opis i edytuj treœæ. 
+5.	Zaakceptuj klikaj¹c poza polem edytowanego zadania. 
+6.	Zwróæ uwagê, ¿e treœæ zadania wróci³a do pierwotnie wpisanej.
+
+OCZEWIKANY REZULTAT: Mo¿liwoœæ edycji zadañ w ramach TODO.
+AKTUALNY REZULTAT: Brak mo¿liwoœci edycji zadañ w ramach TODO.
+
+EWIDENCJA: Gif - Raport2.1M.Pilatowicz
+
+----------------------------------------------------------------------------------------------------
+ODKRYCIA - POTENCJALNE PROBLEMY:
+1. Jednokrotne klikniêcie na obszarze utworzonego zadania nie powoduje jego aktywnoœci. 
+Aby móc cokolwiek wpisaæ, nale¿y klikn¹æ dwukrotnie.
+----------------------------------------------------------------------------------------------------
+
+
+- 
